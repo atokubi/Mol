@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2C835C1746B9F5005FD18A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C835B1746B9F5005FD18A /* UIKit.framework */; };
+		DE2C835E1746B9F5005FD18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C835D1746B9F5005FD18A /* Foundation.framework */; };
+		DE2C83601746B9F5005FD18A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C835F1746B9F5005FD18A /* CoreGraphics.framework */; };
+		DE2C83661746B9F5005FD18A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83641746B9F5005FD18A /* InfoPlist.strings */; };
+		DE2C83681746B9F5005FD18A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2C83671746B9F5005FD18A /* main.m */; };
+		DE2C836C1746B9F5005FD18A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2C836B1746B9F5005FD18A /* AppDelegate.m */; };
+		DE2C83751746B9F5005FD18A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83731746B9F5005FD18A /* MainStoryboard.storyboard */; };
+		DE2C83781746B9F5005FD18A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2C83771746B9F5005FD18A /* ViewController.m */; };
+		DE2C83801746B9F5005FD18A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C837F1746B9F5005FD18A /* SenTestingKit.framework */; };
+		DE2C83811746B9F5005FD18A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C835B1746B9F5005FD18A /* UIKit.framework */; };
+		DE2C83821746B9F5005FD18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C835D1746B9F5005FD18A /* Foundation.framework */; };
+		DE2C838A1746B9F5005FD18A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83881746B9F5005FD18A /* InfoPlist.strings */; };
+		DE2C838D1746B9F5005FD18A /* MolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2C838C1746B9F5005FD18A /* MolTests.m */; };
+		DE2C83AF1746BA2D005FD18A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C839C1746BA2D005FD18A /* bg.png */; };
+		DE2C83B01746BA2D005FD18A /* drop_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C839D1746BA2D005FD18A /* drop_down.png */; };
+		DE2C83B11746BA2D005FD18A /* forgotten_password.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C839E1746BA2D005FD18A /* forgotten_password.png */; };
+		DE2C83B31746BA2D005FD18A /* mol.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A01746BA2D005FD18A /* mol.png */; };
+		DE2C83B41746BA2D005FD18A /* payem_base_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A11746BA2D005FD18A /* payem_base_bg.png */; };
+		DE2C83B51746BA2D005FD18A /* payem_button_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A21746BA2D005FD18A /* payem_button_signup.png */; };
+		DE2C83B61746BA2D005FD18A /* payem_button_unpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A31746BA2D005FD18A /* payem_button_unpressed.png */; };
+		DE2C83B71746BA2D005FD18A /* payem_into_words.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A41746BA2D005FD18A /* payem_into_words.png */; };
+		DE2C83B81746BA2D005FD18A /* signin.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A51746BA2D005FD18A /* signin.png */; };
+		DE2C83B91746BA2D005FD18A /* signinnew.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A61746BA2D005FD18A /* signinnew.png */; };
+		DE2C83BA1746BA2D005FD18A /* signupr.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A71746BA2D005FD18A /* signupr.png */; };
+		DE2C83BB1746BA2D005FD18A /* textbox.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83A81746BA2D005FD18A /* textbox.png */; };
+		DE2C83BD1746BA9E005FD18A /* words.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83BC1746BA9E005FD18A /* words.png */; };
+		DE2C83BF1746BC22005FD18A /* 57by57.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83BE1746BC22005FD18A /* 57by57.png */; };
+		DE2C83C11746BC28005FD18A /* 114by114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83C01746BC27005FD18A /* 114by114.png */; };
+		DE2C83C31746BC37005FD18A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83C21746BC37005FD18A /* Default.png */; };
+		DE2C83C51746BC46005FD18A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83C41746BC45005FD18A /* Default@2x.png */; };
+		DE2C83C71746BC4D005FD18A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2C83C61746BC4D005FD18A /* Default-568h@2x.png */; };
+		DE45BC5F17492159003E72CF /* StartPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE45BC5E17492159003E72CF /* StartPaymentViewController.m */; };
+		DEFF5B4F174B703100232A0E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFF5B41174B703100232A0E /* back.png */; };
+		DEFF5B50174B703100232A0E /* bgpad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFF5B42174B703100232A0E /* bgpad.png */; };
+		DEFF5B51174B703100232A0E /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFF5B43174B703100232A0E /* dot.png */; };
+		DEFF5B52174B703100232A0E /* su.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFF5B44174B703100232A0E /* su.png */; };
+		DEFF5B54174B97A500232A0E /* charge.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFF5B53174B97A500232A0E /* charge.png */; };
+		DEFF5B57174B9A4500232A0E /* PaymentMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFF5B56174B9A4500232A0E /* PaymentMethodViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE2C83831746B9F5005FD18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2C83501746B9F5005FD18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE2C83571746B9F5005FD18A;
+			remoteInfo = Mol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2C83581746B9F5005FD18A /* Mol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C835B1746B9F5005FD18A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE2C835D1746B9F5005FD18A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE2C835F1746B9F5005FD18A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE2C83631746B9F5005FD18A /* Mol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mol-Info.plist"; sourceTree = "<group>"; };
+		DE2C83651746B9F5005FD18A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE2C83671746B9F5005FD18A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE2C83691746B9F5005FD18A /* Mol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mol-Prefix.pch"; sourceTree = "<group>"; };
+		DE2C836A1746B9F5005FD18A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE2C836B1746B9F5005FD18A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE2C836D1746B9F5005FD18A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE2C836F1746B9F5005FD18A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE2C83711746B9F5005FD18A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE2C83741746B9F5005FD18A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE2C83761746B9F5005FD18A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE2C83771746B9F5005FD18A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE2C837E1746B9F5005FD18A /* MolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C837F1746B9F5005FD18A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE2C83871746B9F5005FD18A /* MolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MolTests-Info.plist"; sourceTree = "<group>"; };
+		DE2C83891746B9F5005FD18A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE2C838B1746B9F5005FD18A /* MolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MolTests.h; sourceTree = "<group>"; };
+		DE2C838C1746B9F5005FD18A /* MolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MolTests.m; sourceTree = "<group>"; };
+		DE2C839C1746BA2D005FD18A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		DE2C839D1746BA2D005FD18A /* drop_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_down.png; sourceTree = "<group>"; };
+		DE2C839E1746BA2D005FD18A /* forgotten_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forgotten_password.png; sourceTree = "<group>"; };
+		DE2C83A01746BA2D005FD18A /* mol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mol.png; sourceTree = "<group>"; };
+		DE2C83A11746BA2D005FD18A /* payem_base_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payem_base_bg.png; sourceTree = "<group>"; };
+		DE2C83A21746BA2D005FD18A /* payem_button_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payem_button_signup.png; sourceTree = "<group>"; };
+		DE2C83A31746BA2D005FD18A /* payem_button_unpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payem_button_unpressed.png; sourceTree = "<group>"; };
+		DE2C83A41746BA2D005FD18A /* payem_into_words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payem_into_words.png; sourceTree = "<group>"; };
+		DE2C83A51746BA2D005FD18A /* signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin.png; sourceTree = "<group>"; };
+		DE2C83A61746BA2D005FD18A /* signinnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signinnew.png; sourceTree = "<group>"; };
+		DE2C83A71746BA2D005FD18A /* signupr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupr.png; sourceTree = "<group>"; };
+		DE2C83A81746BA2D005FD18A /* textbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox.png; sourceTree = "<group>"; };
+		DE2C83BC1746BA9E005FD18A /* words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = words.png; sourceTree = "<group>"; };
+		DE2C83BE1746BC22005FD18A /* 57by57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57by57.png; sourceTree = "<group>"; };
+		DE2C83C01746BC27005FD18A /* 114by114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114by114.png; sourceTree = "<group>"; };
+		DE2C83C21746BC37005FD18A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE2C83C41746BC45005FD18A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE2C83C61746BC4D005FD18A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE45BC5D17492159003E72CF /* StartPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPaymentViewController.h; sourceTree = "<group>"; };
+		DE45BC5E17492159003E72CF /* StartPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPaymentViewController.m; sourceTree = "<group>"; };
+		DEFF5B41174B703100232A0E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../gig/back.png; sourceTree = "<group>"; };
+		DEFF5B42174B703100232A0E /* bgpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgpad.png; path = ../gig/bgpad.png; sourceTree = "<group>"; };
+		DEFF5B43174B703100232A0E /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot.png; path = ../gig/dot.png; sourceTree = "<group>"; };
+		DEFF5B44174B703100232A0E /* su.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = su.png; path = ../gig/su.png; sourceTree = "<group>"; };
+		DEFF5B53174B97A500232A0E /* charge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charge.png; path = ../gig/charge.png; sourceTree = "<group>"; };
+		DEFF5B55174B9A4500232A0E /* PaymentMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMethodViewController.h; sourceTree = "<group>"; };
+		DEFF5B56174B9A4500232A0E /* PaymentMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2C83551746B9F5005FD18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C835C1746B9F5005FD18A /* UIKit.framework in Frameworks */,
+				DE2C835E1746B9F5005FD18A /* Foundation.framework in Frameworks */,
+				DE2C83601746B9F5005FD18A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C837A1746B9F5005FD18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C83801746B9F5005FD18A /* SenTestingKit.framework in Frameworks */,
+				DE2C83811746B9F5005FD18A /* UIKit.framework in Frameworks */,
+				DE2C83821746B9F5005FD18A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2C834F1746B9F5005FD18A = {
+			isa = PBXGroup;
+			children = (
+				DEFF5B53174B97A500232A0E /* charge.png */,
+				DEFF5B41174B703100232A0E /* back.png */,
+				DEFF5B42174B703100232A0E /* bgpad.png */,
+				DEFF5B43174B703100232A0E /* dot.png */,
+				DEFF5B44174B703100232A0E /* su.png */,
+				DE2C83C61746BC4D005FD18A /* Default-568h@2x.png */,
+				DE2C83C41746BC45005FD18A /* Default@2x.png */,
+				DE2C83C21746BC37005FD18A /* Default.png */,
+				DE2C83C01746BC27005FD18A /* 114by114.png */,
+				DE2C83BE1746BC22005FD18A /* 57by57.png */,
+				DE2C83BC1746BA9E005FD18A /* words.png */,
+				DE2C839C1746BA2D005FD18A /* bg.png */,
+				DE2C839D1746BA2D005FD18A /* drop_down.png */,
+				DE2C839E1746BA2D005FD18A /* forgotten_password.png */,
+				DE2C83A01746BA2D005FD18A /* mol.png */,
+				DE2C83A11746BA2D005FD18A /* payem_base_bg.png */,
+				DE2C83A21746BA2D005FD18A /* payem_button_signup.png */,
+				DE2C83A31746BA2D005FD18A /* payem_button_unpressed.png */,
+				DE2C83A41746BA2D005FD18A /* payem_into_words.png */,
+				DE2C83A51746BA2D005FD18A /* signin.png */,
+				DE2C83A61746BA2D005FD18A /* signinnew.png */,
+				DE2C83A71746BA2D005FD18A /* signupr.png */,
+				DE2C83A81746BA2D005FD18A /* textbox.png */,
+				DE2C83611746B9F5005FD18A /* Mol */,
+				DE2C83851746B9F5005FD18A /* MolTests */,
+				DE2C835A1746B9F5005FD18A /* Frameworks */,
+				DE2C83591746B9F5005FD18A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2C83591746B9F5005FD18A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C83581746B9F5005FD18A /* Mol.app */,
+				DE2C837E1746B9F5005FD18A /* MolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2C835A1746B9F5005FD18A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C835B1746B9F5005FD18A /* UIKit.framework */,
+				DE2C835D1746B9F5005FD18A /* Foundation.framework */,
+				DE2C835F1746B9F5005FD18A /* CoreGraphics.framework */,
+				DE2C837F1746B9F5005FD18A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2C83611746B9F5005FD18A /* Mol */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C836A1746B9F5005FD18A /* AppDelegate.h */,
+				DE2C836B1746B9F5005FD18A /* AppDelegate.m */,
+				DE2C83731746B9F5005FD18A /* MainStoryboard.storyboard */,
+				DE2C83761746B9F5005FD18A /* ViewController.h */,
+				DE2C83771746B9F5005FD18A /* ViewController.m */,
+				DE45BC5D17492159003E72CF /* StartPaymentViewController.h */,
+				DE45BC5E17492159003E72CF /* StartPaymentViewController.m */,
+				DEFF5B55174B9A4500232A0E /* PaymentMethodViewController.h */,
+				DEFF5B56174B9A4500232A0E /* PaymentMethodViewController.m */,
+				DE2C83621746B9F5005FD18A /* Supporting Files */,
+			);
+			path = Mol;
+			sourceTree = "<group>";
+		};
+		DE2C83621746B9F5005FD18A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C83631746B9F5005FD18A /* Mol-Info.plist */,
+				DE2C83641746B9F5005FD18A /* InfoPlist.strings */,
+				DE2C83671746B9F5005FD18A /* main.m */,
+				DE2C83691746B9F5005FD18A /* Mol-Prefix.pch */,
+				DE2C836D1746B9F5005FD18A /* Default.png */,
+				DE2C836F1746B9F5005FD18A /* Default@2x.png */,
+				DE2C83711746B9F5005FD18A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE2C83851746B9F5005FD18A /* MolTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C838B1746B9F5005FD18A /* MolTests.h */,
+				DE2C838C1746B9F5005FD18A /* MolTests.m */,
+				DE2C83861746B9F5005FD18A /* Supporting Files */,
+			);
+			path = MolTests;
+			sourceTree = "<group>";
+		};
+		DE2C83861746B9F5005FD18A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C83871746B9F5005FD18A /* MolTests-Info.plist */,
+				DE2C83881746B9F5005FD18A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2C83571746B9F5005FD18A /* Mol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2C83901746B9F5005FD18A /* Build configuration list for PBXNativeTarget "Mol" */;
+			buildPhases = (
+				DE2C83541746B9F5005FD18A /* Sources */,
+				DE2C83551746B9F5005FD18A /* Frameworks */,
+				DE2C83561746B9F5005FD18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mol;
+			productName = Mol;
+			productReference = DE2C83581746B9F5005FD18A /* Mol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE2C837D1746B9F5005FD18A /* MolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2C83931746B9F5005FD18A /* Build configuration list for PBXNativeTarget "MolTests" */;
+			buildPhases = (
+				DE2C83791746B9F5005FD18A /* Sources */,
+				DE2C837A1746B9F5005FD18A /* Frameworks */,
+				DE2C837B1746B9F5005FD18A /* Resources */,
+				DE2C837C1746B9F5005FD18A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2C83841746B9F5005FD18A /* PBXTargetDependency */,
+			);
+			name = MolTests;
+			productName = MolTests;
+			productReference = DE2C837E1746B9F5005FD18A /* MolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2C83501746B9F5005FD18A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Louis Owusu Manu";
+			};
+			buildConfigurationList = DE2C83531746B9F5005FD18A /* Build configuration list for PBXProject "Mol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE2C834F1746B9F5005FD18A;
+			productRefGroup = DE2C83591746B9F5005FD18A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2C83571746B9F5005FD18A /* Mol */,
+				DE2C837D1746B9F5005FD18A /* MolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2C83561746B9F5005FD18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C83661746B9F5005FD18A /* InfoPlist.strings in Resources */,
+				DE2C83751746B9F5005FD18A /* MainStoryboard.storyboard in Resources */,
+				DE2C83AF1746BA2D005FD18A /* bg.png in Resources */,
+				DE2C83B01746BA2D005FD18A /* drop_down.png in Resources */,
+				DE2C83B11746BA2D005FD18A /* forgotten_password.png in Resources */,
+				DE2C83B31746BA2D005FD18A /* mol.png in Resources */,
+				DE2C83B41746BA2D005FD18A /* payem_base_bg.png in Resources */,
+				DE2C83B51746BA2D005FD18A /* payem_button_signup.png in Resources */,
+				DE2C83B61746BA2D005FD18A /* payem_button_unpressed.png in Resources */,
+				DE2C83B71746BA2D005FD18A /* payem_into_words.png in Resources */,
+				DE2C83B81746BA2D005FD18A /* signin.png in Resources */,
+				DE2C83B91746BA2D005FD18A /* signinnew.png in Resources */,
+				DE2C83BA1746BA2D005FD18A /* signupr.png in Resources */,
+				DE2C83BB1746BA2D005FD18A /* textbox.png in Resources */,
+				DE2C83BD1746BA9E005FD18A /* words.png in Resources */,
+				DE2C83BF1746BC22005FD18A /* 57by57.png in Resources */,
+				DE2C83C11746BC28005FD18A /* 114by114.png in Resources */,
+				DE2C83C31746BC37005FD18A /* Default.png in Resources */,
+				DE2C83C51746BC46005FD18A /* Default@2x.png in Resources */,
+				DE2C83C71746BC4D005FD18A /* Default-568h@2x.png in Resources */,
+				DEFF5B4F174B703100232A0E /* back.png in Resources */,
+				DEFF5B50174B703100232A0E /* bgpad.png in Resources */,
+				DEFF5B51174B703100232A0E /* dot.png in Resources */,
+				DEFF5B52174B703100232A0E /* su.png in Resources */,
+				DEFF5B54174B97A500232A0E /* charge.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C837B1746B9F5005FD18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C838A1746B9F5005FD18A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE2C837C1746B9F5005FD18A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2C83541746B9F5005FD18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C83681746B9F5005FD18A /* main.m in Sources */,
+				DE2C836C1746B9F5005FD18A /* AppDelegate.m in Sources */,
+				DE2C83781746B9F5005FD18A /* ViewController.m in Sources */,
+				DE45BC5F17492159003E72CF /* StartPaymentViewController.m in Sources */,
+				DEFF5B57174B9A4500232A0E /* PaymentMethodViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C83791746B9F5005FD18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C838D1746B9F5005FD18A /* MolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE2C83841746B9F5005FD18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE2C83571746B9F5005FD18A /* Mol */;
+			targetProxy = DE2C83831746B9F5005FD18A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE2C83641746B9F5005FD18A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C83651746B9F5005FD18A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE2C83731746B9F5005FD18A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C83741746B9F5005FD18A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2C83881746B9F5005FD18A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C83891746B9F5005FD18A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2C838E1746B9F5005FD18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE2C838F1746B9F5005FD18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2C83911746B9F5005FD18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mol/Mol-Prefix.pch";
+				INFOPLIST_FILE = "Mol/Mol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE2C83921746B9F5005FD18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mol/Mol-Prefix.pch";
+				INFOPLIST_FILE = "Mol/Mol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE2C83941746B9F5005FD18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mol.app/Mol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mol/Mol-Prefix.pch";
+				INFOPLIST_FILE = "MolTests/MolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DE2C83951746B9F5005FD18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mol.app/Mol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mol/Mol-Prefix.pch";
+				INFOPLIST_FILE = "MolTests/MolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2C83531746B9F5005FD18A /* Build configuration list for PBXProject "Mol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C838E1746B9F5005FD18A /* Debug */,
+				DE2C838F1746B9F5005FD18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2C83901746B9F5005FD18A /* Build configuration list for PBXNativeTarget "Mol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C83911746B9F5005FD18A /* Debug */,
+				DE2C83921746B9F5005FD18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2C83931746B9F5005FD18A /* Build configuration list for PBXNativeTarget "MolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C83941746B9F5005FD18A /* Debug */,
+				DE2C83951746B9F5005FD18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE2C83501746B9F5005FD18A /* Project object */;
+}
